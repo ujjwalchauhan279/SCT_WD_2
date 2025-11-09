@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="body">
+    <nav class="navbar">
+        <h1><u><b>Stopwatch</b></u></h1>
+    </nav>
+    <h2 class="h2">TRACK YOUR TIME</h2>
+    <div class="container">
+        <div class="num">
+            <h2 class="hours">00</h2>
+            <h2>:</h2>
+            <h2 class="min">00</h2>
+            <h2>:</h2>
+            <h2 class="sec">00</h2>
+            <h2>:</h2>
+            <h2 class="ms">00</h2>
+        </div>
+        <div class="button">
+            <button onclick="start()">Start</button>
+            <button onclick="stopWatch()">Stop</button>
+            <button onclick="lap()">Lap</button>
+            <button onclick="resetWatch()">Reset</button>
+        </div>
+        <div class="lap-container">
+            <ul class="lap-list"></ul>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+    <footer>
+        <span>Designed by @ujjwalchauhan279</span>
+    </footer>
+</body>
+
+</html>
